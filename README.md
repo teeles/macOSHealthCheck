@@ -23,37 +23,29 @@ M.H.C. is a Bash script that uses [SwiftDialog](https://github.com/swiftDialog/)
 
 ---
 
-## Installation
+## Use Without MDM
 
-1. **Clone the repo**  
+1. **Download the Script**  
    ```bash
-   git clone https://github.com/YOUR_USERNAME/mhc.git
-   cd mhc
+   wget https://raw.githubusercontent.com/teeles/macOSHealthCheck/refs/heads/MHC/macOSHealthCheck.sh
    ```
 2. **Make the script executable**  
    ```bash
-   chmod +x mhc.sh
+   chmod +x macOSHealthCheck.sh
    ```
-
----
-
-## Usage
-
-Run the script from Terminal or via MDM:
+Run the script:
 
 ```bash
-./mhc.sh
+./macOSHealthCheck.sh
 ```
-
-A dialog titled **MacBook Health Service** will appear, summarizing the device’s health. Use the provided buttons to proceed or generate logs.
 
 ---
 
 ## Deployment with Jamf Pro (Optional)
 
-1. Upload `mhc.sh` as a Script in Jamf Pro.  
+1. Upload `macOSHealthCheck.sh` as a Script in Jamf Pro.  
 2. Create a Policy scoped to your target machines.  
-3. Add `mhc.sh` in the Scripts payload and add to self service so users can access whenever. 
+3. Add `macOSHealthCheck.sh` in the Scripts payload and add to self service so users can access whenever. 
 
 ---
 
