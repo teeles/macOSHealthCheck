@@ -33,7 +33,7 @@ M.H.C. is a Bash script that uses [SwiftDialog](https://github.com/swiftDialog/)
    ```bash
    chmod +x macOSHealthCheck.sh
    ```
-Run the script:
+3. Run the script:
 
 ```bash
 ./macOSHealthCheck.sh
